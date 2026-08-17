@@ -10,6 +10,8 @@
   ],
   "androidUrl": "https://github.com/myothuonion-ui/mt-eps-topik-releases/releases/download/v1.1.0/MT-EPS-TOPIK-Android-v1.1.0.apk",
   "windowsUrl": "https://github.com/myothuonion-ui/mt-eps-topik-releases/releases/download/v1.1.0/MT-EPS-TOPIK-Windows-v1.1.0.exe",
-  "publishedAt": "2026-08-17T08:02:00+06:30",
+  "androidSha256": "993ae5b465809f996130155211e2292bd7df084bbe823561ce160809127ed4cb",
+  "windowsSha256": "39f19b3025100bd8095bf52a4a9070396c9a10144864e01a68d771576b1e879b",
+  "publishedAt": "2026-08-17T08:41:27+06:30",
   "channel": "stable"
 }
