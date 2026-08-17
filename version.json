@@ -1,0 +1,15 @@
+{
+  "version": "1.1.0",
+  "notes": [
+    "Android Save Image now saves through the native gallery bridge.",
+    "Save Image includes Original, High 1.5x, and Ultra 2x resolution choices with PNG/JPG output.",
+    "Settings moved to the top-right and now contains API keys, Global Watermark, and update controls.",
+    "Global Watermark and export preferences persist across app restarts.",
+    "Added daily update checks and a manual Check for Updates action.",
+    "Card template designs remain locked and unchanged."
+  ],
+  "androidUrl": "https://github.com/myothuonion-ui/mt-eps-topik-releases/releases/download/v1.1.0/MT-EPS-TOPIK-Android-v1.1.0.apk",
+  "windowsUrl": "https://github.com/myothuonion-ui/mt-eps-topik-releases/releases/download/v1.1.0/MT-EPS-TOPIK-Windows-v1.1.0.exe",
+  "publishedAt": "2026-08-17T08:02:00+06:30",
+  "channel": "stable"
+}
