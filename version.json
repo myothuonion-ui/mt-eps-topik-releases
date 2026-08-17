@@ -6,12 +6,13 @@
     "Settings moved to the top-right and now contains API keys, Global Watermark, and update controls.",
     "Global Watermark and export preferences persist across app restarts.",
     "Added daily update checks and a manual Check for Updates action.",
-    "Card template designs remain locked and unchanged."
+    "Card template designs remain locked and unchanged.",
+    "Fixed the Windows white-screen startup issue in the packaged Electron app."
   ],
   "androidUrl": "https://github.com/myothuonion-ui/mt-eps-topik-releases/releases/download/v1.1.0/MT-EPS-TOPIK-Android-v1.1.0.apk",
   "windowsUrl": "https://github.com/myothuonion-ui/mt-eps-topik-releases/releases/download/v1.1.0/MT-EPS-TOPIK-Windows-v1.1.0.exe",
   "androidSha256": "993ae5b465809f996130155211e2292bd7df084bbe823561ce160809127ed4cb",
-  "windowsSha256": "39f19b3025100bd8095bf52a4a9070396c9a10144864e01a68d771576b1e879b",
-  "publishedAt": "2026-08-17T08:41:27+06:30",
+  "windowsSha256": "b1325cd7d9f23c6b1341919b04e17207a0265d8191e0bfa1fdd9ac2af6581921",
+  "publishedAt": "2026-08-17T03:25:03.614333+00:00",
   "channel": "stable"
 }
