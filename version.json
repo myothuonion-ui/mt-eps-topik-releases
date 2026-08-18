@@ -1,18 +1,19 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
+  "windowsVersion": "1.1.1",
+  "androidVersion": "1.1.0",
   "notes": [
-    "Android Save Image now saves through the native gallery bridge.",
-    "Save Image includes Original, High 1.5x, and Ultra 2x resolution choices with PNG/JPG output.",
-    "Settings moved to the top-right and now contains API keys, Global Watermark, and update controls.",
-    "Global Watermark and export preferences persist across app restarts.",
-    "Added daily update checks and a manual Check for Updates action.",
-    "Card template designs remain locked and unchanged.",
-    "Fixed the Windows white-screen startup issue in the packaged Electron app."
+    "Added secure Supabase Edge Content Bank saving with Admin authentication.",
+    "Added Chapter Knowledge Bank import and Database Source generation for Chapters 1-60.",
+    "Added EPS-TOPIK Listening question generation with Gemini QA and Gemini TTS audio.",
+    "Added private listening-audio storage metadata and draft persistence.",
+    "Added Windows desktop packaging and update support for v1.1.1.",
+    "Existing card template designs remain unchanged."
   ],
   "androidUrl": "https://github.com/myothuonion-ui/mt-eps-topik-releases/releases/download/v1.1.0/MT-EPS-TOPIK-Android-v1.1.0.apk",
-  "windowsUrl": "https://github.com/myothuonion-ui/mt-eps-topik-releases/releases/download/v1.1.0/MT-EPS-TOPIK-Windows-v1.1.0.exe",
+  "windowsUrl": "https://github.com/myothuonion-ui/mt-eps-topik-releases/releases/download/v1.1.1/MT-EPS-TOPIK-Windows-v1.1.1.exe",
   "androidSha256": "993ae5b465809f996130155211e2292bd7df084bbe823561ce160809127ed4cb",
-  "windowsSha256": "b1325cd7d9f23c6b1341919b04e17207a0265d8191e0bfa1fdd9ac2af6581921",
-  "publishedAt": "2026-08-17T03:25:03.614333+00:00",
+  "windowsSha256": "e64973abb7b1eb9a0a2474eaeb0f576f8eb10edf28fbadeb80bad67f621ae7af",
+  "publishedAt": "2026-08-18T03:42:00Z",
   "channel": "stable"
 }
