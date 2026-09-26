@@ -4,12 +4,14 @@ Public update and download repository for the MT EPS TOPIK desktop and Android a
 
 ## Android test channel
 
-Current Android test build: **v1.1.16-test**
+Current Android test build: **v1.1.17-test**
 
-- [Download MT EPS TOPIK Android v1.1.16-test](https://raw.githubusercontent.com/myothuonion-ui/mt-eps-topik-releases/main/downloads/MT-EPS-TOPIK-Android-v1.1.16-test.apk)
+- [Download MT EPS TOPIK Android v1.1.17-test](https://raw.githubusercontent.com/myothuonion-ui/mt-eps-topik-releases/main/downloads/MT-EPS-TOPIK-Android-v1.1.17-test.apk)
 - Package: `com.mteps.topik.dev`
-- SHA-256: `e795913873405aae2e686ed2451ab213a125c90c9d46fd7b9958e0c743ae02b6`
-- Includes Telegram Channel automation, per-chapter question plans, Smart Full Chapter generation, scheduling, quiz polls, captions, and run history.
+- SHA-256: `7802f8ab4089fdd1788532afa3d095f4d3a52d770f56b5f440f329716c30c3a3`
+- Each signed-in user can connect their own Telegram bot token and channel from the app.
+- Telegram credentials and the existing Gemini API key are stored per account in encrypted Supabase Vault.
+- Chapter plans support fixed or Smart counts, chapter ranges, and all/sequential/random chapter selection without a 60-question global cap.
 
 The Android app checks `version.json` and also supports **Check for Updates** from Settings.
 

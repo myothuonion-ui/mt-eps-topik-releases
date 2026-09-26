@@ -1,18 +1,18 @@
 {
-  "version": "1.1.16",
+  "version": "1.1.17",
   "windowsVersion": "1.1.1",
-  "androidVersion": "1.1.16",
+  "androidVersion": "1.1.17",
   "notes": [
-    "Added Telegram Channel automation with scheduled generation while the app is closed.",
-    "Added per-chapter fixed question counts for Vocabulary, Grammar, Blank, Reading, and Listening.",
-    "Added Smart Full Chapter mode with selectable chapters and question types.",
-    "Added native Telegram quiz polls, varied captions, duplicate prevention, run history, and retry logging.",
-    "Added Asia/Seoul, Asia/Yangon, and UTC schedule timezones."
+    "Each signed-in user can now connect their own Telegram bot token and channel from the app.",
+    "Telegram automation reuses the Gemini API key already saved under API Keys and stores each user's automation credentials in encrypted Supabase Vault.",
+    "Chapter plans now support fixed or Smart counts, ranges, and all/sequential/random chapter selection.",
+    "Removed the global 60-question cap; 60 now refers only to the available textbook chapters.",
+    "Scheduled generation and posting continue on the server while the app is closed."
   ],
-  "androidUrl": "https://raw.githubusercontent.com/myothuonion-ui/mt-eps-topik-releases/main/downloads/MT-EPS-TOPIK-Android-v1.1.16-test.apk",
+  "androidUrl": "https://raw.githubusercontent.com/myothuonion-ui/mt-eps-topik-releases/main/downloads/MT-EPS-TOPIK-Android-v1.1.17-test.apk",
   "windowsUrl": "https://github.com/myothuonion-ui/mt-eps-topik-releases/releases/download/v1.1.1/MT-EPS-TOPIK-Windows-v1.1.1.exe",
-  "androidSha256": "e795913873405aae2e686ed2451ab213a125c90c9d46fd7b9958e0c743ae02b6",
+  "androidSha256": "7802f8ab4089fdd1788532afa3d095f4d3a52d770f56b5f440f329716c30c3a3",
   "windowsSha256": "e64973abb7b1eb9a0a2474eaeb0f576f8eb10edf28fbadeb80bad67f621ae7af",
-  "publishedAt": "2026-09-25T14:12:43.092Z",
+  "publishedAt": "2026-09-26T00:43:07.475Z",
   "channel": "test"
 }
