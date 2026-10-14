@@ -4,27 +4,27 @@ Public update and download repository for the MT EPS TOPIK desktop and Android a
 
 ## Android test channel
 
-Current Android test build: **v1.1.20-test** (versionCode **13010**).
+Current Android test build: **v1.1.21-test** (versionCode **13011**).
 
-- [Download MT EPS TOPIK Android v1.1.20-test](https://raw.githubusercontent.com/myothuonion-ui/mt-eps-topik-releases/main/downloads/MT-EPS-TOPIK-Android-v1.1.20-test.apk)
+- [Download MT EPS TOPIK Android v1.1.21-test](https://raw.githubusercontent.com/myothuonion-ui/mt-eps-topik-releases/main/downloads/MT-EPS-TOPIK-Android-v1.1.21-test.apk)
 - Package: `com.mteps.topik.dev`
-- SHA-256: `d356e0c173aca94345c86544a29edc9784ca22a8943c1f9b58db978f88bbd155`
-- Selected navy/turquoise MT logo and Balance shell; the manual Create flow and existing manual themes remain available.
-- **Auto → Telegram Studio** separates generated Preview drafts from the publishing Queue. Edit the passage, question, choices, answer, Myanmar explanation and listening transcript; save to run QA again before publication.
-- Choose Text or per-question Mint Studio, Exam Sheet and Soft Panels images. Customize logo image/text, footer, position and opacity. Long readings become an album of up to ten pages; each complete album counts as one question.
-- Global/per-plan Pause, owner-wide daily caps and at least one-minute spacing apply to publication. Overdue posts are Held until explicitly rescheduled; Resume does not burst-send them.
-- Gemini generates, NVIDIA reviews and Gemini performs final and image QA. Bundled HarfBuzz shaping fixes Myanmar text in server PNGs. Prepared images and audio remain private until posting.
-- Users connect their own Telegram bot/channel and Gemini/NVIDIA keys. Credentials remain encrypted per account in Supabase Vault.
-- 43 application tests, 13 database transaction checks, 30 browser checks, 21 rendered PNG pages and the deployed Edge render probe passed. Android CI verified package metadata, the existing test signer, bundled web assets and checksum. Live AI generation, TTS and Telegram delivery require the account connection and were not sent during validation.
+- SHA-256: `b1b2d84e8250d1861152ecd9745342af70b95f6565daded48b2cefeb59629553`
+- **Auto → Connection** needs only a BotFather token and channel link/ID. Public links, public post links, @usernames, private t.me/c message links and -100… IDs are supported. Add the bot as a channel admin with post permission.
+- Connection verifies the bot and admin rights without AI requests or automatically posting a message. Use **Send test** explicitly. Private invite-only links require the numeric channel ID or a private message link.
+- **Settings → Database** signs into the original Content Bank. Telegram operates independently of that account; database Sign Out keeps the bot connected. There is no Telegram signup.
+- Add Gemini/NVIDIA keys in API Keys when generating questions. They are synchronized separately and remain encrypted with the bot credentials in Vault.
+- The selected B palette uses a smaller, simple MT monogram, updated Android density/adaptive icons and a 32 px contained app-header logo.
+- Telegram Studio retains text and Mint Studio/Exam Sheet/Soft Panels images, editing with QA, custom branding, reading albums, Preview → Publish, global/per-plan pause and owner-wide daily caps.
+- 53 application tests, rolled-back database ownership/rotation/grant checks, mobile/desktop connection/settings checks and 48/72 px launcher checks passed. Original Auth/Content Bank code and database counts are preserved. Android CI verified version, existing development signer, bundled assets and checksum. No real Telegram messages were sent during validation.
 
-The Android app checks `version.json` and supports **Check for Updates** from Settings. This APK updates the existing test package with the same signing certificate and a higher versionCode. Open **Auto → Connection**, save a plan, generate a preview, then publish approved drafts to a future queue. New plans start with automation disabled.
+This APK updates the existing test package with the same signing certificate and a higher versionCode. The app supports **Check for Updates** from Settings.
 
 ## Stable channel
 
-The permanent-key stable release remains separate from the test package. A stable Android release must use package `com.mteps.topik` and the same permanent signing key for every future update.
+The permanent-key stable release remains separate from the test package. Stable Android releases use package `com.mteps.topik` and the same permanent signing key for future updates.
 
 ## Release policy
 
 - Never commit signing keys or API keys to this public repository.
 - Test builds use package `com.mteps.topik.dev`; stable builds use `com.mteps.topik`.
-- `version.json` points the in-app updater to a trusted public APK and checksum.
+- `version.json` points the updater to the public APK and checksum.
