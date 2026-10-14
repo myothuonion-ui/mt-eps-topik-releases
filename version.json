@@ -1,20 +1,20 @@
 {
-  "version": "1.1.19",
+  "version": "1.1.20",
   "windowsVersion": "1.1.1",
-  "androidVersion": "1.1.19",
+  "androidVersion": "1.1.20",
   "notes": [
-    "Fix Add range while preserving existing chapters, Apply template, and editable numeric counts.",
-    "Support multiple daily starts, unlimited planned posts and sequential chapter continuation without a 60-question global cap.",
-    "Choose Telegram Quiz, My Template or Auto; cards show four choices and a spoiler answer/explanation.",
-    "Gemini generates, NVIDIA reviews against the complete source, and Gemini performs final QA.",
-    "Prepare and visually verify images/audio before queueing; deliver due posts before new generation.",
-    "28 tests and Android CI passed. Connect your own Telegram bot/channel and Gemini/NVIDIA keys; live provider and Telegram delivery still need an integration check."
+    "Selected navy/turquoise MT logo and Balance app shell; manual Create flow remains available.",
+    "Auto → Telegram Studio adds preview drafts, editing with QA and explicit publication to a future queue.",
+    "Text and per-question Mint Studio, Exam Sheet or Soft Panels images support custom logo/footer and long reading albums.",
+    "Global/per-plan pause, owner-wide daily caps, minute spacing and held overdue posts prevent burst sends.",
+    "HarfBuzz shaping fixes Myanmar text in server PNGs. Gemini generates, NVIDIA reviews and Gemini performs final and visual QA.",
+    "43 application tests, 13 database checks, mobile/desktop previews and the deployed renderer passed. Live AI/TTS/Telegram delivery requires configured account keys and channel."
   ],
-  "androidUrl": "https://raw.githubusercontent.com/myothuonion-ui/mt-eps-topik-releases/main/downloads/MT-EPS-TOPIK-Android-v1.1.19-test.apk",
+  "androidUrl": "https://raw.githubusercontent.com/myothuonion-ui/mt-eps-topik-releases/main/downloads/MT-EPS-TOPIK-Android-v1.1.20-test.apk",
   "windowsUrl": "https://github.com/myothuonion-ui/mt-eps-topik-releases/releases/download/v1.1.1/MT-EPS-TOPIK-Windows-v1.1.1.exe",
-  "androidSha256": "bd7fa493ce2cc496faff058d8544c4966a4df2dc16eea1c9680f6b8aa05807bd",
+  "androidSha256": "d356e0c173aca94345c86544a29edc9784ca22a8943c1f9b58db978f88bbd155",
   "windowsSha256": "e64973abb7b1eb9a0a2474eaeb0f576f8eb10edf28fbadeb80bad67f621ae7af",
-  "publishedAt": "2026-09-30T10:49:48.884Z",
+  "publishedAt": "2026-10-14T12:56:47.663Z",
   "channel": "test",
-  "androidVersionCode": 13009
+  "androidVersionCode": 13010
 }
