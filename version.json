@@ -1,20 +1,20 @@
 {
-  "version": "1.1.21",
+  "version": "1.1.22",
   "windowsVersion": "1.1.1",
-  "androidVersion": "1.1.21",
+  "androidVersion": "1.1.22",
   "notes": [
-    "Telegram connects with only BotFather token and a channel link or ID; add the bot as channel admin with post permission.",
-    "Settings → Database keeps the original Content Bank sign-in. Telegram does not need that account, and database Sign Out keeps the bot connection working.",
-    "Gemini/NVIDIA keys are required later for generation and QA, and do not block bot connection. Connect verifies permission without automatically sending a message; Send test is explicit.",
-    "Selected B colors now use a compact MT mobile icon with safe launcher spacing and a 32 px header logo.",
-    "Telegram Studio themes, editable preview drafts, explicit publication, pause controls and daily limits remain available.",
-    "53 tests, database ownership/rotation checks, mobile browser/launcher checks and Android CI passed. Original database counts and Content Bank code are preserved. No real Telegram messages were sent during validation."
+    "The selected C book/conversation logo now appears in the app header, Android launcher and desktop icon; mobile spacing stays compact.",
+    "Auto → Connection → Test channel delivery accepts your own test text, rechecks channel admin/post permission and sends directly without Gemini or NVIDIA keys.",
+    "Confirmed tests show the Telegram message ID, channel and a link to the delivered message. Errors and uncertain delivery outcomes remain visible beside the test.",
+    "Create and Telegram share the same Gemini fallback models; quota, overload, unavailable-model and timeout failures continue to the next model.",
+    "Content Bank sign-in remains independent of Telegram bot/channel setup. The application name and existing Android development signing certificate are retained.",
+    "Production build, TypeScript, 61 application tests, Android package/signature checks and Windows CI passed. Test network calls are mocked; actual channel delivery still needs confirmation through Send test."
   ],
-  "androidUrl": "https://raw.githubusercontent.com/myothuonion-ui/mt-eps-topik-releases/main/downloads/MT-EPS-TOPIK-Android-v1.1.21-test.apk",
+  "androidUrl": "https://raw.githubusercontent.com/myothuonion-ui/mt-eps-topik-releases/main/downloads/MT-EPS-TOPIK-Android-v1.1.22-test.apk",
   "windowsUrl": "https://github.com/myothuonion-ui/mt-eps-topik-releases/releases/download/v1.1.1/MT-EPS-TOPIK-Windows-v1.1.1.exe",
-  "androidSha256": "b1b2d84e8250d1861152ecd9745342af70b95f6565daded48b2cefeb59629553",
+  "androidSha256": "b053beecc41b48c3f7cd460a94f30727db49736f4e03801af83175b902d4526d",
   "windowsSha256": "e64973abb7b1eb9a0a2474eaeb0f576f8eb10edf28fbadeb80bad67f621ae7af",
-  "publishedAt": "2026-10-14T14:07:27.113Z",
+  "publishedAt": "2026-10-15T11:13:02.334Z",
   "channel": "test",
-  "androidVersionCode": 13011
+  "androidVersionCode": 13012
 }
